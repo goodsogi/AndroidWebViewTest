@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
 //                }
             }
         });
-        browser.loadUrl("https://torrentview15.net");
+        browser.loadUrl("https://www.google.com");
 
     }
 
