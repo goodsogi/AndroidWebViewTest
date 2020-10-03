@@ -82,6 +82,15 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onBackPressed() {
+        if (browser.canGoBack()) {
+            browser.goBack();
+        } else {
+            super.onBackPressed();
+        }
+    }
+
     private void startDownloadManager(String url, String userAgent,
                                       String contentDisposition, String mimeType,
                                       long contentLength) {
