@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
 //                }
             }
         });
-        browser.loadUrl("https://www.google.com");
+        browser.loadUrl("https://manager.atzcare.com/schedule/main.az");
 
     }
 
